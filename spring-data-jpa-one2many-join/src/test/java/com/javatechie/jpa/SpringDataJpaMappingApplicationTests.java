@@ -1,14 +1,17 @@
 package com.javatechie.jpa;
 
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringDataJpaMappingApplicationTests {
+public class SpringDataJpaMappingApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		assertTrue(true);
 	}
 
 }
